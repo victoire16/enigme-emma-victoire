@@ -1,0 +1,77 @@
+body {
+
+}
+
+.main-view {
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  background: url('images/fond.svg') top center no-repeat;
+  background-size: cover;
+
+}
+
+.rive-gauche,
+.rive-droite {
+  border: 2px solid red;
+  flex-basis: 15%;
+}
+
+.person {
+  width : 100%;
+  border : 2px solid green;
+}
+
+
+.choices {
+  display: flex;
+  width: 100%;
+}
+
+.choice {
+  flex-basis: 300px;
+
+}
+
+.choice a {
+  width: 100%;
+    display: flex;
+}
+
+
+/* <style>
+@import url('https://fonts.googleapis.com/css?family=Dokdo');
+</style>
+
+
+
+.tempsecoule {
+  border: 1px solid red;
+  width: 200px;
+  height: 200px;
+  background: url('images/horloge.svg') top left no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.tempsecoule p {
+  font-size: 4em;
+  text-align: center;
+  padding: 0
+}
+
+.Enigme {
+border: 1em;
+width: 700px;
+height: 200px;
+background-color: white;
+background-size: cover;
+  margin-right: 0 auto;
+  font-family: 'Dokdo', cursive;
+
+}
+.Enigme p {
+  font-size: 1em;
+  text-align:center;
+  padding:0;
+} */
