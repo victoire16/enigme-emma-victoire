@@ -2,11 +2,43 @@ body {
 
 }
 
+.enigme {
+  position: absolute;
+  top : 42px;
+  left : 38%;
+  max-width: 600px;
+  min-height: 320px;
+  background: yellow;
+  border: 6px solid red;
+}
+
+
+
+.tempsecoule {
+  border: 1px solid red;
+  width: 200px;
+  height: 200px;
+  background: url('images/horloge.svg') top left no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  position: absolute;
+  top : 42px;
+  left : 50%;
+  transform: translateX(-50%);
+}
+
+.tempsecoule p {
+  font-size: 4em;
+  text-align: center;
+  padding: 0
+}
+
+
 .main-view {
   min-height: 80vh;
   display: flex;
   justify-content: space-between;
-  background: url('images/fond.svg') top center no-repeat;
+  background: url('images/fond.svg') bottom center no-repeat;
   background-size: cover;
 
 }
@@ -14,7 +46,10 @@ body {
 .rive-gauche,
 .rive-droite {
   border: 2px solid red;
-  flex-basis: 15%;
+  flex-basis: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .person {
@@ -26,16 +61,20 @@ body {
 .choices {
   display: flex;
   width: 100%;
+  justify-content: space-evenly;
+}
+
+.choices>a {
+  flex-basis: 300px;
 }
 
 .choice {
-  flex-basis: 300px;
-
+    display: flex;
 }
 
 .choice a {
   width: 100%;
-    display: flex;
+
 }
 
 
@@ -44,21 +83,6 @@ body {
 </style>
 
 
-
-.tempsecoule {
-  border: 1px solid red;
-  width: 200px;
-  height: 200px;
-  background: url('images/horloge.svg') top left no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-}
-
-.tempsecoule p {
-  font-size: 4em;
-  text-align: center;
-  padding: 0
-}
 
 .Enigme {
 border: 1em;
